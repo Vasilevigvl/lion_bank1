@@ -1,6 +1,7 @@
 
 
 body {
+  margin: 0;
   font-family: "Open Sans", Helvetica, sans-serif;
   color: white;
   font-size: 16px;
@@ -38,7 +39,7 @@ p {
 }
 
 .main-page-wrapper {
-  background: url(./img/bg/lion-header.jpg) center top no-repeat;
+  background: url(./img/bg/lion-header.jpg) center top no-repeat, url(./img/bg/bottom-pic.png) right bottom 307px no-repeat;
 }
 
 .container {
@@ -89,9 +90,9 @@ p {
   margin-right: 50px;
 }
 
-/*.menu__item_active .menu__link {
+.menu__item_active .menu__link {
   color: #dfb56d;
-}*/
+}
 
 .menu__item:last-child {
 margin-right: 0;
@@ -247,7 +248,7 @@ margin-bottom: 4px;
   margin-bottom: 50px;
 }
 
-.offers__btn_wrapper {
+.offers__btn {
   text-align: center;
 }
 
@@ -289,6 +290,7 @@ background: #978455;
   position: relative;
   border-radius:4px;
   overflow: hidden;
+  margin-right: 10px;
 }
 
 .news__cover {
@@ -369,10 +371,6 @@ background: #978455;
 
 .pager__link:hover {
   background: #353538;
-}
-
-.section .container .about  {
-  background: url(./img/bg/lion-head-wide.jpg) right top  no-repeat;
 }
 
 
