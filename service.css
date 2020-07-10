@@ -4,7 +4,7 @@
 
 .top-line {
   min-height: 420px;
-  background: #202123 url(./img/bg/lion-head-wide.jpg) center top no-repeat;
+  background: #202123 url(./img/bg/lion-head-wide.jpg) center top / cover no-repeat;
   display: flex;
   flex-direction: column;
   padding-bottom: 25px;
@@ -41,7 +41,7 @@
   font-size: 14px;
 }
 
-.breadcrumbs__item--active  {
+.breadcrumbs__item--active .breadcrumbs__link {
   color: #999999;
   text-decoration: none;
 }
@@ -87,7 +87,7 @@
 }
 
 .service__img {
-  width: 30%;
+  width: 45%;
   margin-right: 7%;
 }
 

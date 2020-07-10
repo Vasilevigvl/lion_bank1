@@ -158,7 +158,7 @@ margin-bottom: 4px;
   position: relative;
 }
 
-.contacts__dropdown-title:hover ~ .dropdown__menu {
+.dropdown:hover  .dropdown__menu {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -202,7 +202,7 @@ margin-bottom: 4px;
   color: #1e1f20;
 }
 
-.dropdown__item-fw-bold {
+.dropdown__item_fw-bold {
   font-weight: bold;
 }
 
