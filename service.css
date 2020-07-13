@@ -1,0 +1,175 @@
+
+
+
+
+.top-line {
+  min-height: 420px;
+  background: #202123 url(./img/bg/lion-head-wide.jpg) center top / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+}
+
+.top-line__header {
+  padding-top: 25px;
+}
+
+.top-line__container  {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page__title  {
+  margin-bottom: 25px;
+  font-size: 72px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.breadcrumbs__list  {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.breadcrumbs__item  {
+  display: flex;
+  align-items: center;
+  color: #dfb56d;
+  font-size: 14px;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: #999999;
+  text-decoration: none;
+}
+
+.breadcrumbs__link--active  {
+  color: #999999;
+  text-decoration: none;
+}
+
+.breadcrumbs__item:after  {
+  content: "/";
+  text-decoration: none;
+}
+
+.breadcrumbs__item:last-child::after  {
+  content: none;
+}   
+
+
+.page-content { 
+  padding: 40px 0;
+  background: #fff ;
+  color: #818181;
+}
+
+.services  {
+  margin-bottom: 65px;
+
+}
+
+.service  {
+  padding: 58px 43px;
+  display: flex;
+  text-decoration: none;
+}
+
+.service:hover  {
+  background: #f4f5f5;
+}
+
+.service:hover .service__btn  {
+  background: #dfb56d;
+}
+
+.service__img {
+  width: 45%;
+  margin-right: 7%;
+}
+
+.service__content {
+  flex: 1;
+}
+
+.service__title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 22px;
+  color: #202123;
+}
+
+.service__desc  {
+  line-height: 1.7;
+  margin-bottom: 30px;
+
+}
+
+.pager--theme--light  {
+  color: #202123;
+
+
+}
+
+
+.pager--theme--light .pager__link_active .pager__link {
+  color: #fff;
+  background: #353538;
+}
+
+.pager--theme--light .pager__link:hover {
+  color: #fff;
+  background: #353538;
+}
+
+
+
+.inner-section  {
+  background: #fff;
+  color: #202123;
+  padding: 95px 0;
+}
+
+.inner-section--bg--gray  {
+  background: #f4f5f5;
+}
+
+.inner-section__title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 75px;
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partners__item {
+  margin-left: 46px;
+}
+
+.partners__item:nth-child(4n + 1) {
+  margin-left: 0;
+}
+
+
+.partners__link {
+  text-decoration: none;
+  display: flex;
+  width: 250px;
+  height: 110px;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-footer__container {
+  padding: 45px 0;
+}
+
+.inner-footer {
+  margin-top: auto;
+}
